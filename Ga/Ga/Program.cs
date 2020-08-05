@@ -22,6 +22,9 @@ namespace Ga
             
             int prod = n1*n2;
             Console.Write("\nEl valor del producto es : " + prod);
+
+            int div = n1 / n2;
+            Console.Write("\nEl valor de la division es: "+ div);
             Console.ReadKey();
         }
     }
