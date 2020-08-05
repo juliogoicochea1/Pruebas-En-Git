@@ -19,6 +19,9 @@ namespace Ga
 
             int t = n1 + n2;
             Console.Write("El valor de la suma es : " + t);
+            
+            int prod = n1*n2;
+            Console.Write("\nEl valor del producto es : " + prod);
             Console.ReadKey();
         }
     }
