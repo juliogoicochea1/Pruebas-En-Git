@@ -18,6 +18,7 @@ namespace PruebaDesdeVisual
             {
                 Console.WriteLine("Valor de n[" + i + "] = "+n[i]);
             }
+            Console.Write("\nF");
             Console.ReadKey();
         }
     }
