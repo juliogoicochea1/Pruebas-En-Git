@@ -12,13 +12,16 @@ namespace PruebaDesdeVisual
         {
             int []n;
             n = new int[2];
-            n[0] = 5;
-            n[1] = 7;
             for(int i = 0; i < n.Length; i++)
             {
-                Console.WriteLine("Valor de n[" + i + "] = "+n[i]);
+                Console.WriteLine("Digite el valor de la Matriz ["+(i+1)+"] = ");
+                n[i] = Convert.ToInt16(Console.Read());
             }
-            Console.Write("\nF");
+            Console.Clear();
+            for(int i = 0; i < n.Length; i++)
+            {
+                Console.WriteLine("\n" + n[i]);
+            }
             Console.ReadKey();
         }
     }
