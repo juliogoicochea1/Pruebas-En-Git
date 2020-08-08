@@ -26,6 +26,8 @@ namespace Ga
             int div = n1 / n2;
             Console.Write("\nEl valor de la division es: "+ div);
             Console.ReadKey();
+
+            Console.Write("JAJAJAJAF POR TI KK:V");
         }
     }
 }
